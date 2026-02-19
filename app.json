@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "WAppZakelijk",
+    "slug": "wappzakelijk-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "wappzakelijk",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#06060f"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "nl.wappzakelijk.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#06060f"
+      },
+      "package": "nl.wappzakelijk.app",
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications"
+    ],
+    "owner": "handsomebstrd",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "51bb87f0-23b5-4ddb-8a19-12efdbd28d94"
+      }
+    }
+  }
+}

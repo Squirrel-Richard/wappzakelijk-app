@@ -1,0 +1,25 @@
+# Exclude workspace-level files (this app lives inside a larger workspace)
+../../node_modules
+../../.git
+../../builds
+../../tasks
+../../memory
+../../coach-ai
+../../huuradmin-nl
+../../huurcheck-nl
+../../inplannen-nl
+../../inplannen-app
+../../kasplanner-app
+../../kasplanner-nl
+../../vcapaspoort-app
+../../vcapaspoort-nl
+../../vakmanapp-nl
+../../vakmanapp-app
+../../factuurlink-nl
+../../productscore
+../../huuradmin-app
+../../wappzakelijk-nl
+node_modules
+.expo
+android
+ios
